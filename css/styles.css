@@ -14,7 +14,7 @@ body{
     height: 768px;
 }
 /*style-header*/
-.header{
+header{
     display: flex;
     justify-content: space-between;
     margin: 0px;
