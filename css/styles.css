@@ -94,24 +94,12 @@ h5{
     margin-top: 0px;
     margin: 20px;
 }
-h2{
-    color: #ffffff;
-    text-align: left;
-    font-size: 14px;
-    margin: 20px;
-   
-}
-h4{
-    color: #ffffff;
-    text-align: left;
-    font-size: 14px;
-    margin: 20px;
-}
+
 .button{
     background: rgb(54, 51, 51);
     color: #fff;
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
     margin: -20px;
     padding: 10px 40px;
     text-align: left;
@@ -121,6 +109,18 @@ h4{
     border-inline-style: solid none;
     font-family: 'Roboto', sans-serif;
 }
+.items{
+    display: inline-block;
+    color: #fff;
+    width: 120px;
+    font-size: 14px;
+    margin: -20px;
+    margin-top: 0px;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
 /*style-box1*/
 .box1{
    
