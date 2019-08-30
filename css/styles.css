@@ -5,11 +5,16 @@ h1,h2,h3,h4,h5,h6{
     font-weight: normal;
 }
 body{
+    height: 100%;
     margin: 0px;
-    
+   
+}
+content, html{
+    height: 100%;
 }
 /*style-wrapper*/
 .wrapper{
+    height: 100%;
     margin: 0px;
     
 }
@@ -41,13 +46,16 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center; 
+    padding: 10px 10px;
+    padding: 10px 10px;
 }
 .profile-dropdown{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
- 
+margin-right: 20px;
+padding: 10px 10px;
 }
 .notification{
     display: flex;
@@ -66,13 +74,16 @@ justify-content: center;
 /*style-content*/
 .pcontent{
    display: flex;
-   width: 100%;
+   height: 100%;
    background: #f4f4f4;
    margin: 0px;
 }
 /*style-sidebar*/
 .sidebar{
+    width: 200px;
+    
    background: #000000;
+   font-size: 14px;
 }
 .Diet{
     width: 200px;
@@ -89,7 +100,7 @@ justify-content: center;
 h5{
     
     color: rgb(109, 105, 105);
-    font-size: 14px;
+    
     margin-top: 0px;
     margin: 20px;
 }
@@ -98,7 +109,7 @@ h5{
     background: rgb(54, 51, 51);
     color: #fff;
     display: inline-block;
-    font-size: 14px;
+    
     margin: -20px;
     padding: 10px 40px;
     text-align: left;
@@ -112,7 +123,7 @@ h5{
     display: inline-block;
     color: #fff;
     width: 120px;
-    font-size: 14px;
+    
     margin: -20px;
     margin-top: 0px;
     padding: 20px 40px;
@@ -123,25 +134,28 @@ h5{
 /*style-box1*/
 .box1{
    width: 100%;
+   height: 100%;
    background: #f4f4f4;
-  
+   font-size: 16px;
 }
 /*style-boxuser*/
 .user{
     display: flex;
+    justify-content: space-between;
     margin: 20px;
+    font-size: 16px;
     margin-top: 10px;
     background: #f4f4f4;
+    font-size: 16px;
 }
 
 .lorem{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin-left: 960px;
+    
 }
 /*style-tabledate*/
 .table{
-    
+    font-size: 16px;
     margin: 20px;
     margin-top: 0px;
  }
@@ -156,23 +170,22 @@ h5{
   
  }
  h6{
-   font-size: 14px;
+   font-size: 16px;
    margin: 0px;
    margin-top: 5px;
  }
  .name{
     width: 20px;
-     
-    margin: 0px;
-    margin-top: 20px;
+    margin: -40px;
+    margin-top: 10px;
  }
  .name1{
     margin: 0px;
-    margin-top: 20px;
+    margin-top: 10px;
  }
 .name h6{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+   
     color: #999999;
 }
     
@@ -180,85 +193,86 @@ h5{
    width: 20px;
     
    margin: 0px;
-   margin-top: 20px;
+   margin-top: 10px;
 } 
 .height1{
    font-family: 'Roboto', sans-serif;
    margin: 0px;
-   margin-top: 20px;
+   margin-top: 10px;
 }    
 .height h6{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    
     color: #999999;
 } 
 .bmi{
-   width: 80px;
+   width: 90px;
      
    margin: 0px;
-   margin-top: 20px;
+   margin-top: 10px;
 }
 .bmi1{
     margin-right: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
 }    
 .bmi h6{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    
     color: #999999;
 }
 .diet{
-   width: 90px;
+   width: 100px;
      
    margin: -10px;
-   margin-top: 20px;
+   margin-top: 10px;
 }
 .diet1{
     margin: 0px;
-    margin-top: 20px;
+    margin-top: 10px;
 }    
 .diet h6{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+   
     color: #999999;
 }
 
 /*style-boxuser2*/
 .user2{
     display: flex;
+    justify-content: space-between;
     width: 100%;
+    font-size: 16px;
     margin: 10px;
     margin-top: 30px;
     background: #f4f4f4;
 }
 
 h3{
+    
     margin-top: 10px;
     margin-right: 10px;
 }
 .lorem1 p{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin-left: 800px;
+    margin-left: 700px;
 }
 .lorem2 p{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 .lorem3 p{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin-left: 30px;
+    margin-top: 8px;
+    margin-left: 0px;
+    padding: 10px 10px;
 }
  /*style-boxdate2*/ 
 .date2{
-   
+    
     background: #ffffff;
     margin-top: -20px;
 }
 .paleo{
-    
     border: 1px;
     border-style: none none solid none;
     border-color: #979797;
@@ -269,21 +283,21 @@ h3{
 }
 .paleodiet h2{
     font-family: 'Roboto', sans-serif;
+   
     margin: 20px;
     margin-top: 15px;
     color: #000000;
-    font-size: 14px;
+    
 }
 .paleodiet h3{
     font-family: 'Roboto', sans-serif;
-    margin-right: 15px;
+    margin-right: 16px;
     margin-top: 22px;
     color: #000000;
-    font-size: 14px;
+    
 }
 /*style-boxdays*/ 
 .days{
-    
     border: 1px;
     border-style: none none solid none;
     border-color: #979797; 
@@ -296,84 +310,53 @@ h3{
     font-family: 'Roboto', sans-serif;
     margin: 20px;
     color: #999999;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 15px;
 }
 .daysw h3{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #000000;
     margin-right: 40px;
     margin-top: 15px;
 }
 .daysw h4{
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     margin-top: 14px;
     margin-right: 50px;
     color: #999999;
-    font-size: 13px;
+    
    
 }
 .daysw h5{
     font-family: 'Roboto', sans-serif;
     margin-right: 20px;
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 16px;
     color: #000000;
 }
-/*style-boxtime*/ 
-.time{
-   
-    border: 1px;
+
+/*style-tabledate*/ 
+.tabledate{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    background: #ffffff;
+}
+table{
+    width: 100%;
+    text-align: left;
+    margin: 0px;
+}
+th, td{
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+   padding: 8px 20px;
+}
+th{
+    border: 1px #979797;
     border-style: none none solid none;
-    border-color: #979797; 
-}
-.timedate{
-    display: flex;
-    justify-content: space-between;
-}
-.timedate h2{
-    font-family: 'Roboto', sans-serif;
-    margin: 20px;
-    margin-top: 8px;
-    color: #000000;
-    font-size: 14px;
-}
-.timedate h3{
-    font-family: 'Roboto', sans-serif;
-    margin-left: -200px;
-    margin-top: 8px;
-    color: #000000;
-    font-size: 14px;   
-}
-.timedate h4{
-    font-family: 'Roboto', sans-serif;
-    color: #000000;
-    margin-right: 100px;
-    margin-top: 8px;
-    font-size: 14px;
-}
-/*style-boxparagraph*/ 
-.paragraph{
-    display: flex;
     
-}
-.p2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin: 25px;
-    margin-top: -15px;
-}
-.p3{
-   font-family: 'Roboto', sans-serif;
-   font-size: 14px;
-   margin: 0px;
-   margin-left: 70px;
-   margin-top: -15px;
-}
-.p4{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin-left: 255px;
-    margin-top: -15px;
 }
