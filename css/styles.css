@@ -22,19 +22,31 @@ header{
     background-color: #ffffff;
 }
 h1{
-    color: #000000∫;
+    color: #000000;
     font-size: 14px;
     padding: 5px;
     margin-left: 20px;
     margin-bottom: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .img-logo{
+    
     width: 30px;
     padding: 10px;
 }
+.titleweb{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
 .profile-dropdown{
 display: flex;
-justify-content: flex-end;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
  
 }
 .notification{
