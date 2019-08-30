@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0px;
-    height: 60px;
+   
     background-color: #ffffff;
 }
 h1{
@@ -54,24 +54,24 @@ justify-content: flex-end;
 /*style-content*/
 .pcontent{
    display: flex;
-   height: 680px;
+   
    background: #f4f4f4;
    margin: 0px;
 }
 /*style-sidebar*/
 .sidebar{
-    height: 680px;  
+   
     background: #000000;
 }
 .Diet{
     width: 200px;
-    height: 200px;
+    
     margin: 0px;
     margin-top: 50px;
 }
 .profile {
     width: 200px;
-    height: 200px; 
+     
     margin: 0px; 
     margin-top: 100px;
 }
@@ -111,14 +111,14 @@ h4{
 }
 /*style-box1*/
 .box1{
-   height: 680px;
+   
    background: #f4f4f4;
   
 }
 /*style-boxuser*/
 .user{
     display: flex;
-    height: 60px;
+    
     margin: 20px;
     margin-top: 0px;
     background: #f4f4f4;
@@ -130,7 +130,7 @@ h4{
 }
 /*style-tabledate*/
 .table{
-    height: 680px;
+    
     margin: 20px;
     margin-top: 0px;
  }
@@ -150,7 +150,7 @@ h4{
  }
  .name{
     width: 20px;
-    height: 70px;  
+     
     margin: 0px;
     margin-top: 20px;
  }
@@ -166,7 +166,7 @@ h4{
     
  .height{
    width: 20px;
-   height: 70px;  
+    
    margin: 0px;
    margin-top: 20px;
 } 
@@ -182,7 +182,7 @@ h4{
 } 
 .bmi{
    width: 80px;
-   height: 70px;  
+     
    margin: 0px;
    margin-top: 20px;
 }
@@ -197,7 +197,7 @@ h4{
 }
 .diet{
    width: 90px;
-   height: 70px;  
+     
    margin: -10px;
    margin-top: 20px;
 }
@@ -214,10 +214,14 @@ h4{
 /*style-boxuser2*/
 .user2{
     display: flex;
-    height: 80px;
-    margin: 0px;
-    margin-top: 20px;
+    
+    margin: 10px;
+    margin-top: 30px;
     background: #f4f4f4;
+}
+h3{
+    margin-top: 10px;
+    margin-right: 10px;
 }
 .lorem1 p{
     font-family: 'Roboto', sans-serif;
@@ -236,12 +240,12 @@ h4{
 }
  /*style-boxdate2*/ 
 .date2{
-    height: 400px;
+   
     background: #ffffff;
     margin-top: -20px;
 }
 .paleo{
-    height: 50px;
+    
     border: 1px;
     border-style: none none solid none;
     border-color: #979797;
@@ -266,7 +270,7 @@ h4{
 }
 /*style-boxdays*/ 
 .days{
-    height: 40px;
+    
     border: 1px;
     border-style: none none solid none;
     border-color: #979797; 
@@ -306,7 +310,7 @@ h4{
 }
 /*style-boxtime*/ 
 .time{
-    height: 30px;
+   
     border: 1px;
     border-style: none none solid none;
     border-color: #979797; 
