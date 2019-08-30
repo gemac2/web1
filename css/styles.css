@@ -178,7 +178,7 @@ h4{
     color: rgb(211, 194, 194);
 } 
 .bmi{
-   width: 70px;
+   width: 80px;
    height: 70px;  
    margin: 0px;
    margin-top: 20px;
@@ -193,7 +193,7 @@ h4{
     color: rgb(211, 194, 194);
 }
 .diet{
-   width: 70px;
+   width: 90px;
    height: 70px;  
    margin: -10px;
    margin-top: 20px;
@@ -247,14 +247,14 @@ h4{
     display: flex;
     justify-content: space-between;
 }
-.paleodiet h1{
+.paleodiet h2{
     font-family: 'Roboto', sans-serif;
     margin: 20px;
     margin-top: 15px;
     color: black;
     font-size: 14px;
 }
-.paleodiet h2{
+.paleodiet h3{
     font-family: 'Roboto', sans-serif;
     margin-right: 15px;
     margin-top: 22px;
@@ -272,21 +272,21 @@ h4{
     display: flex;
     justify-content: space-between;
 }
-.daysw h1{
+.daysw h2{
     font-family: 'Roboto', sans-serif;
     margin: 20px;
     color: rgb(211, 194, 194);
     font-size: 14px;
     margin-top: 10px;
 }
-.daysw h2{
+.daysw h3{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: black;
     margin-right: 40px;
     margin-top: 15px;
 }
-.daysw h3{
+.daysw h4{
     font-family: 'Roboto', sans-serif;
     margin-top: 14px;
     margin-right: 50px;
@@ -303,7 +303,6 @@ h4{
 }
 /*style-boxtime*/ 
 .time{
-    width: 785px;
     height: 30px;
     border: 1px;
     border-style: none none solid none;
@@ -313,23 +312,24 @@ h4{
     display: flex;
     justify-content: space-between;
 }
-.timedate h1{
+.timedate h2{
     font-family: 'Roboto', sans-serif;
     margin: 20px;
     margin-top: 2px;
     color: black;
     font-size: 14px;
 }
-.timedate h2{
+.timedate h3{
     font-family: 'Roboto', sans-serif;
-    margin-right: 60px;
+    margin-left: -200px;
     margin-top: 8px;
     color: black;
     font-size: 14px;   
 }
-.timedate h3{
+.timedate h4{
     font-family: 'Roboto', sans-serif;
-    margin-right: 370px;
+    color: black;
+    margin-right: 100px;
     margin-top: 8px;
     font-size: 14px;
 }
@@ -354,6 +354,6 @@ h4{
 .p4{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    margin-left: 227px;
+    margin-left: 255px;
     margin-top: -15px;
 }
