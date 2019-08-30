@@ -11,7 +11,7 @@ body{
 /*style-wrapper*/
 .wrapper{
     margin: 0px;
-    height: 768px;
+    
 }
 /*style-header*/
 header{
@@ -66,14 +66,13 @@ justify-content: center;
 /*style-content*/
 .pcontent{
    display: flex;
-   
+   width: 100%;
    background: #f4f4f4;
    margin: 0px;
 }
 /*style-sidebar*/
 .sidebar{
-   
-    background: #000000;
+   background: #000000;
 }
 .Diet{
     width: 200px;
@@ -123,22 +122,22 @@ h5{
 
 /*style-box1*/
 .box1{
-   
+   width: 100%;
    background: #f4f4f4;
   
 }
 /*style-boxuser*/
 .user{
     display: flex;
-    
     margin: 20px;
-    margin-top: 0px;
+    margin-top: 10px;
     background: #f4f4f4;
 }
+
 .lorem{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    margin-left: 610px;
+    margin-left: 960px;
 }
 /*style-tabledate*/
 .table{
@@ -148,6 +147,7 @@ h5{
  }
  .date1{
   display:flex;
+  
   justify-content: space-around;
   height: 100px;
   background: #ffffff;
@@ -226,11 +226,12 @@ h5{
 /*style-boxuser2*/
 .user2{
     display: flex;
-    
+    width: 100%;
     margin: 10px;
     margin-top: 30px;
     background: #f4f4f4;
 }
+
 h3{
     margin-top: 10px;
     margin-right: 10px;
@@ -238,7 +239,7 @@ h3{
 .lorem1 p{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    margin-left: 450px;
+    margin-left: 800px;
 }
 .lorem2 p{
     font-family: 'Roboto', sans-serif;
