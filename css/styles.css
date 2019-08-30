@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+body{
+    margin: 0px;
+    
+}
+/*style-wrapper*/
+.wrapper{
+    margin: 0px;
+    height: 768px;
+}
+/*style-header*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    height: 60px;
+    background-color: white;
+}
+h1{
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.img-logo{
+    width: 30px;
+    padding: 10px;
+}
+.ima{
+display: flex;
+justify-content: flex-end;
+ 
+}
+.icons1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icons2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*style-content*/
+.pcontent{
+   display: flex;
+   height: 680px;
+   background: rgb(253, 239, 239);
+   margin: 0px;
+}
+/*style-sidebar*/
+.sidebar{
+    height: 680px;  
+    background: black;
+}
+.Diet{
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    margin-top: 50px;
+}
+.profile {
+    width: 200px;
+    height: 200px; 
+    margin: 0px; 
+    margin-top: 100px;
+}
+h5{
+    color: rgb(109, 105, 105);
+    font-size: 12px;
+    margin-top: 0px;
+    margin: 20px;
+}
+h2{
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    margin: 20px;
+   
+}
+h4{
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    margin: 20px;
+}
+.button{
+    background: rgb(54, 51, 51);
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    margin: -20px;
+    padding: 10px 40px;
+    text-align: left;
+    width: 120px;
+    text-decoration: none;
+    border-radius: 50px;
+    border-inline-style: solid none;
+    font-family: 'Roboto', sans-serif;
+}
+/*style-box1*/
+.box1{
+   height: 680px;
+  
+}
+/*style-boxuser*/
+.user{
+    display: flex;
+    height: 60px;
+    margin: 20px;
+    margin-top: 0px;
+    background: rgb(253, 239, 239);
+}
+.lorem{
+    margin-left: 610px;
+}
+/*style-tabledate*/
+.table{
+    height: 680px;
+    margin: 20px;
+    margin-top: 0px;
+ }
+ .date1{
+  display:flex;
+  justify-content: space-around;
+  height: 100px;
+  background: white;
+  margin: 0px;
+  margin-top: -20px;
+  
+ }
+ h6{
+     margin: 0px;
+     margin-top: 5px;
+ }
+ .name{
+    width: 20px;
+    height: 70px;  
+    margin: 0px;
+    margin-top: 20px;
+ }
+ .name1{
+    margin: 0px;
+    margin-top: 20px;
+ }
+.name h6{
+    color: rgb(211, 194, 194);
+}
+    
+ .height{
+   width: 20px;
+   height: 70px;  
+   margin: 0px;
+   margin-top: 20px;
+} 
+.height1{
+   margin: 0px;
+   margin-top: 20px;
+}    
+.height h6{
+    color: rgb(211, 194, 194);
+} 
+.bmi{
+   width: 70px;
+   height: 70px;  
+   margin: 0px;
+   margin-top: 20px;
+}
+.bmi1{
+    margin-right: 30px;
+    margin-top: 20px;
+}    
+.bmi h6{
+    color: rgb(211, 194, 194);
+}
+.diet{
+   width: 70px;
+   height: 70px;  
+   margin: -10px;
+   margin-top: 20px;
+}
+.diet1{
+    margin: 0px;
+    margin-top: 20px;
+}    
+.diet h6{
+    color: rgb(211, 194, 194);
+}
+
+/*style-boxuser2*/
+.user2{
+    display: flex;
+    height: 80px;
+    margin: 0px;
+    margin-top: 20px;
+    background: rgb(253, 239, 239);
+}
+.lorem1 p{
+    margin-left: 450px;
+}
+.lorem2 p{
+    margin-left: 30px;
+}
+.lorem3 p{
+    margin-left: 30px;
+}
+ /*style-boxdate2*/ 
+.date2{
+    height: 400px;
+    background: white;
+    margin-top: -20px;
+}
+.paleo{
+    height: 50px;
+    border: 1px;
+    border-style: none none solid none;
+    border-color: rgb(221, 216, 216);
+}
+.paleodiet{
+    display: flex;
+    justify-content: space-between;
+}
+.paleodiet h1{
+    margin: 20px;
+    margin-top: 15px;
+    color: black;
+    font-size: 13px;
+}
+.paleodiet h2{
+    margin-right: 15px;
+    margin-top: 22px;
+    color: black;
+    font-size: 13px;
+}
+/*style-boxdays*/ 
+.days{
+    height: 40px;
+    border: 1px;
+    border-style: none none solid none;
+    border-color: rgb(221, 216, 216); 
+}
+.daysw{
+    display: flex;
+    justify-content: space-between;
+}
+.daysw h1{
+    margin: 20px;
+    color: rgb(211, 194, 194);
+    font-size: 13px;
+    margin-top: 10px;
+}
+.daysw h2{
+    font-size: 13px;
+    color: black;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+.daysw h3{
+    margin-top: 15px;
+    margin-right: 50px;
+    color: rgb(211, 194, 194);
+    font-size: 13px;
+   
+}
+.daysw h5{
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: black;
+}
+/*style-boxtime*/ 
+.time{
+    width: 785px;
+    height: 30px;
+    border: 1px;
+    border-style: none none solid none;
+    border-color: rgb(221, 216, 216); 
+}
+.timedate{
+    display: flex;
+    justify-content: space-between;
+}
+.timedate h1{
+    margin: 20px;
+    margin-top: 2px;
+    color: black;
+    font-size: 13px;
+}
+.timedate h2{
+    margin-right: 60px;
+    margin-top: 8px;
+    color: black;
+    font-size: 13px;   
+}
+.timedate h3{
+    margin-right: 370px;
+    margin-top: 8px;
+    font-size: 13px;
+}
+/*style-boxparagraph*/ 
+.paragraph{
+    display: flex;
+    
+}
+.p2{
+    margin: 25px;
+    margin-top: -15px;
+}
+.p3{
+ margin: 0px;
+ margin-left: 70px;
+ margin-top: -15px;
+}
+.p4{
+    margin-left: 227px;
+    margin-top: -15px;
+}
