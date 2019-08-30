@@ -23,7 +23,7 @@ body{
 }
 h1{
     color: black;
-    font-size: 15px;
+    font-size: 14px;
     padding: 5px;
     margin-left: 20px;
     margin-bottom: 15px;
@@ -74,22 +74,23 @@ justify-content: flex-end;
     margin-top: 100px;
 }
 h5{
+    
     color: rgb(109, 105, 105);
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 0px;
     margin: 20px;
 }
 h2{
     color: white;
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     margin: 20px;
    
 }
 h4{
     color: white;
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     margin: 20px;
 }
 .button{
@@ -120,6 +121,8 @@ h4{
     background: rgb(253, 239, 239);
 }
 .lorem{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     margin-left: 610px;
 }
 /*style-tabledate*/
@@ -138,8 +141,9 @@ h4{
   
  }
  h6{
-     margin: 0px;
-     margin-top: 5px;
+   font-size: 14px;
+   margin: 0px;
+   margin-top: 5px;
  }
  .name{
     width: 20px;
@@ -152,6 +156,8 @@ h4{
     margin-top: 20px;
  }
 .name h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     color: rgb(211, 194, 194);
 }
     
@@ -162,10 +168,13 @@ h4{
    margin-top: 20px;
 } 
 .height1{
+   font-family: 'Roboto', sans-serif;
    margin: 0px;
    margin-top: 20px;
 }    
 .height h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     color: rgb(211, 194, 194);
 } 
 .bmi{
@@ -179,6 +188,8 @@ h4{
     margin-top: 20px;
 }    
 .bmi h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     color: rgb(211, 194, 194);
 }
 .diet{
@@ -192,6 +203,8 @@ h4{
     margin-top: 20px;
 }    
 .diet h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     color: rgb(211, 194, 194);
 }
 
@@ -204,12 +217,18 @@ h4{
     background: rgb(253, 239, 239);
 }
 .lorem1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     margin-left: 450px;
 }
 .lorem2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     margin-left: 30px;
 }
 .lorem3 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     margin-left: 30px;
 }
  /*style-boxdate2*/ 
@@ -229,16 +248,18 @@ h4{
     justify-content: space-between;
 }
 .paleodiet h1{
+    font-family: 'Roboto', sans-serif;
     margin: 20px;
     margin-top: 15px;
     color: black;
-    font-size: 13px;
+    font-size: 14px;
 }
 .paleodiet h2{
+    font-family: 'Roboto', sans-serif;
     margin-right: 15px;
     margin-top: 22px;
     color: black;
-    font-size: 13px;
+    font-size: 14px;
 }
 /*style-boxdays*/ 
 .days{
@@ -252,28 +273,32 @@ h4{
     justify-content: space-between;
 }
 .daysw h1{
+    font-family: 'Roboto', sans-serif;
     margin: 20px;
     color: rgb(211, 194, 194);
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 10px;
 }
 .daysw h2{
-    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     color: black;
     margin-right: 40px;
     margin-top: 15px;
 }
 .daysw h3{
-    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 14px;
     margin-right: 50px;
     color: rgb(211, 194, 194);
     font-size: 13px;
    
 }
 .daysw h5{
+    font-family: 'Roboto', sans-serif;
     margin-right: 20px;
     margin-top: 15px;
-    font-size: 13px;
+    font-size: 14px;
     color: black;
 }
 /*style-boxtime*/ 
@@ -289,21 +314,24 @@ h4{
     justify-content: space-between;
 }
 .timedate h1{
+    font-family: 'Roboto', sans-serif;
     margin: 20px;
     margin-top: 2px;
     color: black;
-    font-size: 13px;
+    font-size: 14px;
 }
 .timedate h2{
+    font-family: 'Roboto', sans-serif;
     margin-right: 60px;
     margin-top: 8px;
     color: black;
-    font-size: 13px;   
+    font-size: 14px;   
 }
 .timedate h3{
+    font-family: 'Roboto', sans-serif;
     margin-right: 370px;
     margin-top: 8px;
-    font-size: 13px;
+    font-size: 14px;
 }
 /*style-boxparagraph*/ 
 .paragraph{
@@ -311,15 +339,21 @@ h4{
     
 }
 .p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     margin: 25px;
     margin-top: -15px;
 }
 .p3{
- margin: 0px;
- margin-left: 70px;
- margin-top: -15px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   margin: 0px;
+   margin-left: 70px;
+   margin-top: -15px;
 }
 .p4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     margin-left: 227px;
     margin-top: -15px;
 }
